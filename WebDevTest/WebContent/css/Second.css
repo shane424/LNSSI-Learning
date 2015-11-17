@@ -1,0 +1,16 @@
+.banner{
+	background-color: white;
+	color: black;
+}
+#mytable{
+	margin-left:auto;
+	margin-right:auto;
+	border:10px solid black;
+}
+#mytable td{
+	border:1px solid red;
+}
+#mytable th{
+	background-color: black;
+	color: white;
+}

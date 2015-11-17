@@ -6,6 +6,7 @@
 
 <html>
 <head>
+<script src="js/First.js"></script>
 <c:choose>
 	<c:when test='${role.equals("student") }' >
 		<link rel="stylesheet" type="text/css" href="css/First.css">

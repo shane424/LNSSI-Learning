@@ -63,6 +63,7 @@ public class LoginLogic extends Baselet {
 				if(null != person){
 					System.out.println(username);
 					System.out.println(pass);
+					request.setAttribute("user", username);
 					request.setAttribute("table", utils.getUser(username));
 					request.setAttribute("role", person.getRole());
 					request.getRequestDispatcher("/WEB-INF/pages/Homepage.jsp").forward(request, response);

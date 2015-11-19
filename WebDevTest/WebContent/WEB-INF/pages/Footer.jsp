@@ -1,3 +1,3 @@
 <div class="banner">
-   GOOD BYE FOREVER USER
+   GOOD BYE FOREVER ${user}
 </div>

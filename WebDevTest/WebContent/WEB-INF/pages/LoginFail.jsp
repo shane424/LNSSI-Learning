@@ -6,6 +6,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 </head>
 <body>
-	<h1>${myname},you have failed to login.</h1>
+	<h1>${user},you have failed to login.</h1>
 </body>
 </html>
